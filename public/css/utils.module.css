@@ -1,0 +1,28 @@
+
+/* ----------------------------------NAVBAR------------------------------------------------- */
+.navMain{
+    position: static;
+    top: 0;
+    left: 0;
+    font-size: 10px;
+    height: 60px;
+    width: 100vw;
+    padding: 5px;
+    border-bottom: 1px solid grey;
+}
+
+/* -------------------------------------PROJECT SPACE--------------------------------------- */
+
+.projectSpaceMain{
+    background-color: grey;
+    width: 60vw;
+    height: 120px;
+    border-radius: 20px;
+    background-color: grey;
+    margin: auto;
+    padding: 5px;
+}
+.projectSpaceMain h2{
+    text-align: center;
+    border-bottom: 1px solid white;
+}
