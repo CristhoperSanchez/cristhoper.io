@@ -1,28 +1,73 @@
 
+
 /* ----------------------------------NAVBAR------------------------------------------------- */
 .navMain{
-    position: static;
+    position: fixed;
     top: 0;
     left: 0;
     font-size: 10px;
-    height: 60px;
+    height: 80px;
     width: 100vw;
-    padding: 5px;
+    padding: 10px;
     border-bottom: 1px solid grey;
+    margin-bottom: 20px;
 }
+.navMain h2{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.navLinkColumn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.navLink{
+    height: auto;
+    font-size: 20px;
+    padding: 5px;
+    bottom: 0;
+}
+.navLink:hover{
+    font-size: 22px;
+}
+
 
 /* -------------------------------------PROJECT SPACE--------------------------------------- */
 
-.projectSpaceMain{
+.projectColumn{
     background-color: grey;
-    width: 60vw;
-    height: 120px;
-    border-radius: 20px;
+    width: 50vw;
+    border-radius: 30px;
     background-color: grey;
     margin: auto;
-    padding: 5px;
+    padding: 14px;
 }
-.projectSpaceMain h2{
+.projectColumn h2{
+    font-size: 22px;
+    padding: 5px;
+    margin-left: 10px;
+}
+.projectColumn h2:hover{
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+.projectColumn h3{
+    padding: 5px;
+    font-size: 18px;
+    margin-left: 12px;
+    font-weight: 10;
+}
+
+/* -------------------------------------FOOTER--------------------------------------- */
+
+.footer{
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    bottom: 0;
+    border-top: 1px solid grey;
     text-align: center;
-    border-bottom: 1px solid white;
 }

@@ -2,13 +2,31 @@ import styles from "@/css/utils.module.css"
 
 
 
-export default function ProjectSpace(){
 
+
+
+
+
+function ProjectColumn(){
+    return(
+            <div className={styles.projectColumn}>
+                <h2>Title</h2>
+                <h3>Date</h3>
+            </div>
+
+    )
+}
+
+
+
+
+
+export default function ProjectSpace(){
     return(
         <>
-            <div className={styles.projectSpaceMain}>
-                <h2>Title</h2>
-            </div>
+            <ProjectColumn></ProjectColumn>
         </>
     )
 }
+
+

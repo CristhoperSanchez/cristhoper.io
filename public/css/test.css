@@ -1,0 +1,14 @@
+
+
+
+
+/* These are sample variables to use  */
+
+:root{
+    --samplevar: 20px;
+}
+
+.sample {
+    background-color: red;
+    height: var(--samplevar)
+}
