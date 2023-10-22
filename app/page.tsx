@@ -1,16 +1,14 @@
 import image from 'next/image'
 import styles from '@/css/home.module.css'
-import ProjectSpace from './components/projectSpace'
+import ProjectSpace from './components/projectSpace.jsx'
 
 
 export default function Home() {
   return (
     <>
-      <main className={styles.main}>
         <div className={styles.reel}>
-          <ProjectSpace></ProjectSpace>
+          <ProjectSpace/>
         </div>
-      </main>
     </>
   )
 }
