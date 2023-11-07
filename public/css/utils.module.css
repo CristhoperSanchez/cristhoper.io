@@ -58,6 +58,21 @@
 
 /* -------------------------------------PROJECT SPACE--------------------------------------- */
 
+
+/* WARNING: Flex property was placed here to allow sub projects to fill the full width */
+.global_body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.content{
+    background-color: red;
+    display: fill;
+    flex-grow: 1;
+}
+
 .projectColumn{
     z-index: 5;
     background-color: grey;
