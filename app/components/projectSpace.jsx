@@ -1,7 +1,7 @@
 'use client'
 import styles from "@/css/utils.module.css";
 import { useState } from "react";
-import Posts from '../lib/data';
+//import Posts from '../lib/data';
 
 
 

@@ -1,0 +1,30 @@
+.slider_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 100%;
+    padding: 2rem;
+    border-top: 1px solid whitesmoke;
+    border-bottom: 1px solid lightgray;
+    height: 300px;
+    overflow: hidden;
+
+
+}
+
+/* 
+.display_tile {
+    height: 100%;
+    aspect-ratio: 1/1;
+    border: 1px solid white;
+    margin: 1rem;
+} */
+
+.display_tile {
+    flex: 0 0 33.3333%; /* One third of the container's width */
+    max-width: 33.3333%;
+    transition: transform 0.5s ease-in-out;
+    box-sizing: border-box;
+}
+

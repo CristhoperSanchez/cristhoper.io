@@ -15,10 +15,14 @@ export default function Navbar(){
     }, [prevScrollPos, visible])
     return (
         <nav className={styles.nav_wrapper} >
-            <h2 className={styles.io_nav_heading}>Cristhoper Sanchez</h2>
+            <Link className={styles.io_nav_heading} href={"/"}>Cristhoper</Link>
             <div className={`${styles.nav_grid}  ${visible ? styles.nav_large : styles.nav_small} `}>
-                <ul className={styles.navbar_item}>Home</ul>
-                <ul className={styles.navbar_item}>Projects</ul>
+                <ul className={styles.navbar_item}>
+                    <Link href={"/Projects"}>Projects</Link>
+                </ul>
+                <ul className={styles.navbar_item}>
+                    <Link href={"/FUC"}>FUC</Link>
+                </ul>
                 <ul className={styles.navbar_item}>
                     <Link href={"/FUC"}>FUC</Link>
                 </ul>
